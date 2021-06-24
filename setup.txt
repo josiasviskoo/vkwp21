@@ -11,4 +11,4 @@ rm -rf wordpress && rm -rf latest*.zip && rm -rf *.txt && rm -rf read*.html
 
 cp wp-config-sample.php wp-config.php
 
-EDITADO
+EDITADO 2
