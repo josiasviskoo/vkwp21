@@ -1,0 +1,285 @@
+/* EDITE SOMENTE AS CONFIGURAÇÕES DE CORES. Se for atualizar o arquivo guarde suas configuraçes de cores. */
+:root {
+	/* BOTÕES */
+    --botao-cor: transparent;
+	--botao-cor-letra: red;
+	--botao-raio: 30px;
+	--botao-borda-tamanho: 2px;
+	--botao-borda-cor: red;
+
+	--botao-cor-over: red;
+	--botao-cor-letra-over: white;
+	--botao-raio-over: 30px;
+	--botao-borda-tamanho-over: 2px;
+	--botao-borda-cor-over: red;
+
+	/* CAMPOS DOS FORMULÁRIOS */
+  --campo-cor: white;
+  --campo-cor-borda: gray;
+
+  /* CARRINHO MENU TOPO */
+  --carrinho-indicador-quantidade-fundo: red;
+  --carrinho-indicador-quantidade-letra: white;
+	
+  /* MENU DOCK MOBILE */
+  --menu-mobile-cor-fundo: black;
+  --menu-mobile-cor-letra: white;
+  --menu-mobile-cor-fundo-carrinho: red;
+  --menu-mobile-cor-letra-carrinho: white;
+}
+/* EDITE SOMENTE AS CONFIGURAÇÕES DE CORES. Se for atualizar o arquivo guarde suas configuraçes de cores. */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Preço e botão do woocommerce */
+
+.woocommerce-Price-amount{
+	color: gray;
+	font-size: 18px;
+	background-color: transparent !important;
+}
+
+.woocommerce .col-1, .col-2{ max-width:none;}
+
+.wc-block-grid__product-title{
+	font-size: 18px !important;
+	color: black !important;
+}
+
+h2{
+	font-size: 22px !important;
+}
+
+a {
+	text-decoration: none !important;
+	color: black;
+}
+
+a:hover {
+	color: black;
+}
+
+
+.vk-preto, .vk-preto a{
+	color: black !important;
+}
+
+.vk-cinza, .vk-cinza a{
+	color: gray !important;
+}
+
+.vk-branco, .vk-branco a{
+	color: white !important;
+}
+
+.vk-fundo-preto, .vk-fundo-preto a{
+	background-color: black;
+}
+
+.vk-fundo-cinza, .vk-fundo-cinza a{
+	background-color: gray;
+}
+
+.vk-fundo-branco, .vk-fundo-branco a{
+	background-color: white;
+}
+
+
+.posted_in a{
+	color: black;
+}
+
+.site-main{
+	padding-top: 10px;
+}
+
+.input-text, .textarea{
+	position: relative !important;
+	padding: 10px !important;
+	border: solid 1px gray !important;
+	display: block !important;
+	width: 100% !important;
+}
+
+.stock, .in-stock{
+	color: gray !important;
+}
+
+::-moz-selection {
+  color: white !important;
+  background: black !important;
+}
+
+::selection {
+  color: white !important;
+  background: black !important;
+}
+
+
+/* CORREÇÕES DE FRAMEWORK */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	width: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+	overflow: hidden;
+	position: absolute !important;
+	word-wrap: normal !important;
+}
+
+
+.related{
+	display: block;
+}
+
+del{
+	font-size: 18px !important;
+}
+
+ins{
+	font-size: 42px !important;
+	background-color: transparent !important;
+}
+
+.widget {
+    padding: 2rem;
+    border-radius: 6px;
+    background: linear-gradient(to bottom right, white, white) !important;
+    background-color: rgba(0, 0, 0, 0);
+    color: gray !important;
+    box-shadow: 5px 10px 20px rgba(0,0,0,.1);
+    margin-bottom: 20px;
+}
+
+.widget a {
+    color: gray !important;
+}
+
+.widget h2 {
+    color: gray !important;
+}
+
+.woocommerce-form__label-for-checkbox{
+	display: block;
+}
+
+.product_meta {
+	display: none !important;
+}
+
+.wpcf7-form-control{
+	width: 100%;
+	border-radius: 0px;
+	padding: 10px;
+	border: solid 1px gray;
+}
+
+.woocommerce-products-header__title, .page-title{
+	display: none;
+}
+
+.entry-header {
+	display: none;
+}
+
+.woocommerce-form__label-for-checkbox{
+	display: block !important;
+	width: 100% !important;
+}
+
+.btn, .btn-outline-primary, .add_to_cart_button, .wpcf7-submit, .button{
+	background-color: var(--botao-cor) !important;
+	color: var(--botao-cor-letra) !important;
+	border-radius: var(--botao-raio) !important;
+	border: solid var(--botao-borda-tamanho) var(--botao-borda-cor) !important;
+	margin: 3px;
+}
+
+.btn:hover, .btn-outline-primary:hover, .add_to_cart_button:hover, .wpcf7-submit:hover{
+	background-color: var(--botao-cor-over) !important;
+	color: var(--botao-cor-letra-over) !important;
+	border-radius: var(--botao-raio-over) !important;
+	border: solid var(--botao-borda-tamanho-over) var(--botao-borda-cor-over) !important;
+}
+
+.wpcf7-form-control, .form-control, .input-text, .woocommerce-Input, .woocommerce-Input--text{
+      background-color: var(--campo-cor) !important;
+      border: solid 1px var(--campo-cor-borda) !important;
+	  display: block !important;
+	  width: 100 !important;
+}
+
+.onsale{
+	background-color: var(--botao-cor-over) !important;
+	color: var(--botao-cor-letra-over) !important;
+}
+
+/* Design da página de cadastro */
+/* Change WC Acct Page Column Widths */
+@media only screen and (min-width: 769px) {
+  .woocommerce-account .woocommerce-MyAccount-navigation {
+    width: 22%;
+  }
+  .woocommerce-account .woocommerce-MyAccount-content { 
+    width: 75%;
+  }
+}
+/* Style WC Account Endpoint Links */
+nav.woocommerce-MyAccount-navigation ul {
+  list-style-type: none;
+  padding-left: 0;
+  max-width:200px;
+  font-size: 17px;
+  line-height: 26px;
+}
+nav.woocommerce-MyAccount-navigation ul li {
+  padding: 8px 20px;
+  background-color: rgba(0,0,0,0.05);
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+nav.woocommerce-MyAccount-navigation ul li.is-active {
+  background-color: rgba(0,0,0,0.1);
+}
+nav.woocommerce-MyAccount-navigation ul li.is-active a {
+  color: rgba(0,0,0,0.8); cursor: default;
+}
+nav.woocommerce-MyAccount-navigation ul li.is-active:after {
+  content: "";
+  height: 0;
+  width: 0;
+  border-top: 20px solid transparent;
+  border-left: 14px solid rgba(0,0,0,0.1);
+  border-bottom: 20px solid transparent;
+  float: right;
+  margin-right: -34px;
+  margin-top: -7px;
+}
+nav.woocommerce-MyAccount-navigation ul li:not(.is-active):hover {
+  background-color: rgba(0,0,0,0.07);
+}
+nav.woocommerce-MyAccount-navigation ul li:not(.is-active):hover:after { 
+  content: "";
+  height: 0;
+  width: 0;
+  border-top: 20px solid transparent;
+  border-left: 14px solid rgba(0,0,0,0.07);
+  border-bottom: 20px solid transparent;
+  float: right;
+  margin-right: -34px;
+  margin-top: -7px;
+}
+/* Pagina do cadastro */
+
