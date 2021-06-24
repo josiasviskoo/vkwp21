@@ -26,17 +26,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 <?php include("configs_vkwp20.php"); ?>
 
 
-
 <?php do_action( 'wp_body_open' ); ?>
 <div class="site" id="page">
 	
-	<!-- ÁREA EDITÁVEL -->
-	
-	<?php // include("vk-banner-superior-top.php"); ?>
-	<?php include("vk-info-top.php"); ?>
-	<?php // include("vk-menu-1.php"); ?>
-	<?php include("vk-menu-2.php"); ?>
-	<?php // include("vk-menu-3.php"); ?>
-	<?php include("vk-whatsapp.php"); ?>
-
-	<!--/ ÁREA EDITÁVEL -->
