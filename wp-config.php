@@ -11,7 +11,7 @@
  * * Configurações do MySQL
  * * Chaves secretas
  * * Prefixo do banco de dados
- * * ABSPATH
+ * * ABSPATH 
  *
  * @link https://wordpress.org/support/article/editing-wp-config-php/
  *

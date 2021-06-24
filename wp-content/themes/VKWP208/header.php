@@ -28,4 +28,3 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php do_action( 'wp_body_open' ); ?>
 <div class="site" id="page">
-	
