@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
     <main class="pagina">
       <div class="container">
         <div class="row">
