@@ -22,7 +22,7 @@ if (function_exists('register_sidebar'))
 }
 // Our custom post type function
 function create_posttype() {
- 
+
     register_post_type( 'banner',
     // CPT Options
         array(
@@ -39,3 +39,24 @@ function create_posttype() {
 }
 // Hooking up our function to theme setup
 add_action( 'init', 'create_posttype' );
+
+
+
+function vkwp_modulos() {
+
+    register_post_type( 'modulos',
+    // CPT Options
+        array(
+            'labels' => array(
+                'name' => __( 'Modulos' ),
+                'singular_name' => __( 'Modulo' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array('slug' => 'modulos'),
+            'supports' =>array( 'title','thumbnail'),
+        )
+    );
+}
+// Hooking up our function to theme setup
+add_action( 'init', 'vkwp_modulos' );
