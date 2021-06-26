@@ -1,6 +1,7 @@
 <div class="whatsapp animated slideInUp">
     <a href="https://api.whatsapp.com/send?phone=5516997331020&text=" target="_blank"><i class="fab fa-whatsapp fa-2x" aria-hidden="true"></i></a>
 </div>
+
 <footer class="rodape">
   <div class="container">
       <div class="col-md-12">
@@ -22,7 +23,7 @@
         </div>
       </div>
     </div>
-  </div> 
+  </div>
 </footer>
 <div class="final-line">
 </div>

@@ -40,6 +40,8 @@
     </head>
   </head>
   <body>
+
+
     <header>
       <section id="linha-top">
         <div class="div1"></div>
@@ -59,7 +61,6 @@
             <div class="navbar-nav ml-auto">
               <ul>
                 <?php wp_nav_menu(); ?>
-
               </ul>
             </div>
           </div>
