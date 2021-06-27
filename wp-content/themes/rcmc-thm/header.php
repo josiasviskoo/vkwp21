@@ -42,28 +42,28 @@
   <body>
 
 
-    <header>
-      <section id="linha-top">
-        <div class="div1"></div>
-        <div class="div2">
-            <p>Tel: (16) 3378.3154 / 3378.3196 / 3378.3177 <span class="social-header"><a href="#" target="_bank"><i class="fab fa-lg fa-facebook"></i></a><a href="" target="_blank">  <i class="fab fa-lg fa-instagram"></i></a></span></p>
+
+
+
+<nav class="uk-navbar-container uk-margin" uk-navbar>
+    <div class="uk-navbar-left">
+
+        <a class="uk-navbar-item uk-logo" href="<?php echo get_site_url(); ?>">Logo</a>
+
+        <ul class="uk-navbar-nav">
+            <?php wp_nav_menu(); ?>
+        </ul>
+
+        <div class="uk-navbar-item">
+            <div>Some <a href="#">Link</a></div>
         </div>
-      </section>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-        <a class="navbar-brand" href="<?php echo get_site_url(); ?>">
-          <img src="http://recimec.com.br/wp-content/uploads/2018/04/recimec-logo.png" width="300" alt="">
-        </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="navbar-collapse collapse w-100" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-              <ul>
-                <?php wp_nav_menu(); ?>
-              </ul>
-            </div>
-          </div>
+
+        <div class="uk-navbar-item">
+            <form action="javascript:void(0)">
+                <input class="uk-input uk-form-width-small" type="text" placeholder="Input">
+                <button class="uk-button uk-button-default">Button</button>
+            </form>
         </div>
-      </nav>
-    </header>
+
+    </div>
+</nav>
