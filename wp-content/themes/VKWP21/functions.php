@@ -23,23 +23,42 @@ if (function_exists('register_sidebar'))
 // Our custom post type function
 
 
-function banner_principal_d() {
+function slideshow_1() {
 
     register_post_type( 'banner-principal-d',
     // CPT Options
         array(
             'labels' => array(
-                'name' => __( 'B Principal' ),
-                'singular_name' => __( 'B Principal' )
+                'name' => __( 'slideshow 1' ),
+                'singular_name' => __( 'slideshow 1' )
             ),
             'public' => true,
             'has_archive' => true,
-            'rewrite' => array('slug' => 'banner-principal-d'),
+            'rewrite' => array('slug' => 'slideshow_1'),
             'supports' =>array( 'title','thumbnail'),
         )
     );
 }
-add_action( 'init', 'banner_principal_d' );
+add_action( 'init', 'slideshow_1' );
+
+
+function slideshow_1_m() {
+
+    register_post_type( 'banner-principal-d',
+    // CPT Options
+        array(
+            'labels' => array(
+                'name' => __( 'slideshow@m 1' ),
+                'singular_name' => __( 'slideshow@m 1' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array('slug' => 'slideshow_1_m'),
+            'supports' =>array( 'title','thumbnail'),
+        )
+    );
+}
+add_action( 'init', 'slideshow_1_m' );
 
 
 
