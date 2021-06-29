@@ -21,24 +21,47 @@ if (function_exists('register_sidebar'))
     ));
 }
 // Our custom post type function
+
+
 function create_posttype() {
 
-    register_post_type( 'banner',
+    register_post_type( 'banner-principal-d',
     // CPT Options
         array(
             'labels' => array(
                 'name' => __( 'B Principal' ),
-                'singular_name' => __( 'Banner Principal' )
+                'singular_name' => __( 'B Principal' )
             ),
             'public' => true,
             'has_archive' => true,
-            'rewrite' => array('slug' => 'banner'),
+            'rewrite' => array('slug' => 'banner-principal-d'),
             'supports' =>array( 'title','thumbnail'),
         )
     );
 }
-// Hooking up our function to theme setup
 add_action( 'init', 'create_posttype' );
+
+
+
+function create_posttype() {
+
+    register_post_type( 'banner-principal-m',
+    // CPT Options
+        array(
+            'labels' => array(
+                'name' => __( 'B Principal@m' ),
+                'singular_name' => __( 'B Principal@m' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array('slug' => 'banner-principal-d'),
+            'supports' =>array( 'title','thumbnail'),
+        )
+    );
+}
+add_action( 'init', 'create_posttype' );
+
+
 
 
 
