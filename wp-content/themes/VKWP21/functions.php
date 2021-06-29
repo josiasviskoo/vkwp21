@@ -25,7 +25,7 @@ if (function_exists('register_sidebar'))
 
 function slideshow_1() {
 
-    register_post_type( 'banner-principal-d',
+    register_post_type( 'slideshow_1',
     // CPT Options
         array(
             'labels' => array(
@@ -42,9 +42,10 @@ function slideshow_1() {
 add_action( 'init', 'slideshow_1' );
 
 
+
 function slideshow_1_m() {
 
-    register_post_type( 'banner-principal-d',
+    register_post_type( 'slideshow_1_m',
     // CPT Options
         array(
             'labels' => array(
@@ -60,26 +61,6 @@ function slideshow_1_m() {
 }
 add_action( 'init', 'slideshow_1_m' );
 
-
-
-
-function banner_principal_m() {
-
-    register_post_type( 'banner-principal-m',
-    // CPT Options
-        array(
-            'labels' => array(
-                'name' => __( 'B Principal@m' ),
-                'singular_name' => __( 'B Principal@m' )
-            ),
-            'public' => true,
-            'has_archive' => true,
-            'rewrite' => array('slug' => 'banner-principal-m'),
-            'supports' =>array( 'title','thumbnail'),
-        )
-    );
-}
-add_action( 'init', 'banner_principal_m' );
 
 
 
