@@ -23,7 +23,7 @@ if (function_exists('register_sidebar'))
 // Our custom post type function
 
 
-function create_posttype() {
+function banner_principal_d() {
 
     register_post_type( 'banner-principal-d',
     // CPT Options
@@ -39,11 +39,12 @@ function create_posttype() {
         )
     );
 }
-add_action( 'init', 'create_posttype' );
+add_action( 'init', 'banner_principal_d' );
 
 
 
-function create_posttype() {
+
+function banner_principal_m() {
 
     register_post_type( 'banner-principal-m',
     // CPT Options
@@ -54,12 +55,12 @@ function create_posttype() {
             ),
             'public' => true,
             'has_archive' => true,
-            'rewrite' => array('slug' => 'banner-principal-d'),
+            'rewrite' => array('slug' => 'banner-principal-m'),
             'supports' =>array( 'title','thumbnail'),
         )
     );
 }
-add_action( 'init', 'create_posttype' );
+add_action( 'init', 'banner_principal_m' );
 
 
 
