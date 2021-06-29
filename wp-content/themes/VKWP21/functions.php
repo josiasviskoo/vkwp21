@@ -27,7 +27,7 @@ function create_posttype() {
     // CPT Options
         array(
             'labels' => array(
-                'name' => __( 'Banner Principal' ),
+                'name' => __( 'B Principal' ),
                 'singular_name' => __( 'Banner Principal' )
             ),
             'public' => true,
@@ -42,8 +42,8 @@ add_action( 'init', 'create_posttype' );
 
 
 
-function vkwp_modulos() {
 
+function vkwp_modulos() {
     register_post_type( 'modulos',
     // CPT Options
         array(
