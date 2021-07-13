@@ -1,0 +1,15 @@
+SETUP:
+
+git clone https://github.com/josiasviskoo/vkwp21.git
+
+wget https://br.wordpress.org/latest-pt_BR.zip
+unzip latest-pt_BR.zip
+mv wordpress/* ./
+rm -rf wordpress && rm -rf latest*.zip && rm -rf *.txt && rm -rf read*.html
+
+
+cp wp-config-sample.php wp-config.php
+
+
+GIT
+git add . && git commit -m 'teste-editar' && git push
