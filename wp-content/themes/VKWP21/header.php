@@ -40,33 +40,12 @@
   <body>
 
 
-
+<?php //wp_nav_menu(); ?>
 
 <nav class="uk-navbar-container uk-margin" uk-navbar>
     <div class="uk-navbar-left">
 
         <a class="uk-navbar-item uk-logo" href="<?php echo get_site_url(); ?>">Logo</a>
-
-        <?php wp_nav_menu(); ?>
-
-        <div class="uk-navbar-item">
-            <div>Some <a href="#">Link</a></div>
-        </div>
-
-        <div class="uk-navbar-item">
-            <form action="javascript:void(0)">
-                <input class="uk-input uk-form-width-small" type="text" placeholder="Input">
-                <button class="uk-button uk-button-default">Button</button>
-            </form>
-        </div>
-
-    </div>
-</nav>
-
-<nav class="uk-navbar-container uk-margin" uk-navbar>
-    <div class="uk-navbar-left">
-
-        <a class="uk-navbar-item uk-logo" href="#">Logo</a>
 
         <ul class="uk-navbar-nav">
             <li>
