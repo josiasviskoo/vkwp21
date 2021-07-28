@@ -7,7 +7,7 @@
       <div class="col-md-12">
         <div class="row">
           <div class="col-md-3">
-            <img src="http://recimec.com.br/wp-content/uploads/2018/04/recimec-logoh-1.png">
+            <a class="uk-navbar-item uk-logo" href="<?php echo get_site_url(); ?>">Logo</a>
           </div>
           <div class="col-md-6">
             <span>Rua Alderico V. Perdigão, s/n - Dist. de Água Vermelha - Cx. Postal:724 <br>
