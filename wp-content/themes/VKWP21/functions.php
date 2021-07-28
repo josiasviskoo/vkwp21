@@ -78,7 +78,7 @@ function vkwp_modulos() {
             'public' => true,
             'has_archive' => true,
             'rewrite' => array('slug' => 'modulos'),
-            'supports' =>array( 'title','thumbnail'),
+            'supports' =>array( 'title','thumbnail', 'editor'),
         )
     );
 }
