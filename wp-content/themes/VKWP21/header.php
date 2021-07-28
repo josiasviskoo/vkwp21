@@ -47,9 +47,7 @@
 
         <a class="uk-navbar-item uk-logo" href="<?php echo get_site_url(); ?>">Logo</a>
 
-        <ul class="uk-navbar-nav">
-            <?php wp_nav_menu(); ?>
-        </ul>
+        <?php wp_nav_menu(); ?>
 
         <div class="uk-navbar-item">
             <div>Some <a href="#">Link</a></div>
