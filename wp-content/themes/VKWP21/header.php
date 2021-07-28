@@ -39,7 +39,6 @@
   </head>
   <body>
 
-
 <?php //wp_nav_menu(); ?>
 
 <nav class="uk-navbar-container uk-margin" uk-navbar>
