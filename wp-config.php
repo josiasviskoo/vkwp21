@@ -29,7 +29,7 @@ define( 'DB_USER', 'vkwp21_vkwpus' );
 define( 'DB_PASSWORD', '6{;Q9xlCvH3d' );
 
 /** Nome do host do MySQL */
-define( 'DB_HOST', 'vkwp21.viskoo-cloud-server.com.br' );
+define( 'DB_HOST', 'localhost' );
 
 /** Charset do banco de dados a ser usado na criação das tabelas. */
 define( 'DB_CHARSET', 'utf8' );
