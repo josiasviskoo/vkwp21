@@ -11,7 +11,7 @@
  * * Configurações do MySQL
  * * Chaves secretas
  * * Prefixo do banco de dados
- * * ABSPATH 
+ * * ABSPATH
  *
  * @link https://wordpress.org/support/article/editing-wp-config-php/
  *
@@ -20,16 +20,16 @@
 
 // ** Configurações do MySQL - Você pode pegar estas informações com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
-define( 'DB_NAME', 'viskoocl_vkwp21' );
+define( 'DB_NAME', 'vkwp21_vkwp21db' );
 
 /** Usuário do banco de dados MySQL */
-define( 'DB_USER', 'viskoocl_vkwp21' );
+define( 'DB_USER', 'vkwp21_vkwpus' );
 
 /** Senha do banco de dados MySQL */
-define( 'DB_PASSWORD', 'EDGwk+IkvR=g' );
+define( 'DB_PASSWORD', '6{;Q9xlCvH3d' );
 
 /** Nome do host do MySQL */
-define( 'DB_HOST', 'viskoo-cloud-server.com.br' );
+define( 'DB_HOST', 'vkwp21.viskoo-cloud-server.com.br' );
 
 /** Charset do banco de dados a ser usado na criação das tabelas. */
 define( 'DB_CHARSET', 'utf8' );
