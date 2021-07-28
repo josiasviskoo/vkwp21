@@ -64,9 +64,6 @@ add_action( 'init', 'slideshow_1_m' );
 
 
 
-
-
-
 function vkwp_modulos() {
     register_post_type( 'modulos',
     // CPT Options
