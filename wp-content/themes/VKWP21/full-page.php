@@ -3,7 +3,8 @@
  * Template Name: Full-Page
  */
 get_header();?>
-		<main>  
+
+		<main>
       <div class="container">
         <div class="col-xs-12 col-sm-12 col-md-9">
           <?php get_template_part('_detalhe'); ?>
@@ -14,5 +15,5 @@ get_header();?>
 
       </div>
     </main>
-      
+
 <?php get_footer(); ?>

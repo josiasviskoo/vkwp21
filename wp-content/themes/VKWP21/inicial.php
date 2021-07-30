@@ -3,6 +3,7 @@
  * Template Name: Pagina Inicial
  */
 get_header(); ?>
+
   <main>
     <section class="banner-slide">
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="height: auto; margin: auto 0">
